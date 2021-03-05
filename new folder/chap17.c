@@ -24,10 +24,3 @@ int main_17(void)
 
 	return 0;
 }
-
-void DoublePointerSwap(int** dp1, int** dp2) // 이전 예제는 변수값을 바꾸는 것, 이번 예제는 포인터값을 바꾸는 것. 
-{
-	int* tmp = *dp1;
-	*dp1 = *dp2;
-	*dp2 = tmp;
-}
