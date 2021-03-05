@@ -18,8 +18,6 @@ int main_17(void)
 	int* ptrArr[] = { ptr1, ptr2, ptr3 }; //포인터 배열. 더블 포인터. ptrArr은 int형 더블 포인터가 된다. 
 	int** dptr = ptrArr;
 
-	printf("%d, %d, %d\n", *ptrArr[0], *ptrArr[1], *ptrArr[2]);
-	printf("%d, %d, %d\n", *dptr[0], *dptr[1], *dptr[2]);
 
 
 	return 0;
